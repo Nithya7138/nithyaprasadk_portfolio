@@ -27,7 +27,7 @@ function Contact() {
     <section className="contact" style={{ maxWidth: '700px', margin: '2em auto', padding: '2em', borderRadius: '1.5em', boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.18)', background: 'rgba(255,255,255,0.10)', backdropFilter: 'blur(8px)' }}>
       <h2>Contact</h2>
       <div style={{marginBottom: '1.5em'}}>
-        <p><strong>Email:</strong> <a href="mailto:nithyaprasad.k@example.com" className="contact-link">nithyaprasad.k@example.com</a></p>
+        <p><strong>Email:</strong> <a href="mailto:nithyaprasadk01@example.com" className="contact-link">nithyaprasad.k@example.com</a></p>
         <p><strong>Phone:</strong> +91 7708112871</p>
         <div style={{display: 'flex', flexWrap: 'wrap', gap: '1em', marginTop: '1em', justifyContent: 'center'}}>
           <a href="https://wa.me/7708112871" target="_blank" rel="noopener noreferrer" className="contact-btn" style={{flex: '0 1 180px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5em', background: 'linear-gradient(90deg, #25d366 0%, #128c7e 100%)', color: '#fff', fontWeight: 600, boxShadow: '0 2px 12px 0 rgba(37,211,102,0.15)', transition: 'transform 0.2s, box-shadow 0.2s', cursor: 'pointer'}} onMouseOver={e => {e.currentTarget.style.transform='scale(1.07)';e.currentTarget.style.boxShadow='0 4px 24px 0 rgba(37,211,102,0.25)';}} onMouseOut={e => {e.currentTarget.style.transform='scale(1)';e.currentTarget.style.boxShadow='0 2px 12px 0 rgba(37,211,102,0.15)';}}>

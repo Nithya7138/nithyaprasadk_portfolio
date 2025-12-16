@@ -3,12 +3,21 @@ import React from "react";
 function Experience() {
   const experiences = [
     {
-      company: "MAK Controls & Systems",
-      duration: "1.5 years",
-      role: "Electrical Technician",
-      color: "#ffb300",
-      description: "Gained hands-on experience in electrical systems, troubleshooting, and preventive maintenance. Led small teams for installation projects and contributed to safety improvements."
+      company: "Uniq Botze Info Tech",
+      duration: "Sep 2025 - Present",
+      role: "Junior Software Engineer",
+      color: "#8e44ad",
+      description: "Working as a Junior Software Engineer, contributing to software development projects, collaborating with cross-functional teams, and enhancing technical skills in a dynamic environment."
     },
+
+    {
+      company: "Freelance",
+      duration: "Ongoing",
+      role: "Electrical & Security Systems Technician (Network-related)",
+      color: "#4caf50",
+      description: "Delivering freelance services in electrical, security, and network infrastructure. Passionate about smart home tech, IoT, and helping clients with custom solutions."
+    },
+
     {
       company: "Condia",
       duration: "6 months",
@@ -16,12 +25,13 @@ function Experience() {
       color: "#00bcd4",
       description: "Specialized in security and surveillance system wiring, access control, and smart automation. Collaborated with IT teams for integrated solutions."
     },
+    
     {
-      company: "Freelance",
-      duration: "Ongoing",
-      role: "Electrical & Security Systems Technician (Network-related)",
-      color: "#4caf50",
-      description: "Delivering freelance services in electrical, security, and network infrastructure. Passionate about smart home tech, IoT, and helping clients with custom solutions."
+      company: "MAK Controls & Systems",
+      duration: "1.5 years",
+      role: "Electrical Technician",
+      color: "#ffb300",
+      description: "Gained hands-on experience in electrical systems, troubleshooting, and preventive maintenance. Led small teams for installation projects and contributed to safety improvements."
     }
   ];
 

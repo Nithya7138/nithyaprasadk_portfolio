@@ -17,6 +17,14 @@ function Projects() {
       {showProjects && (
         <ul>
           <li>
+            Academy Finder – A web application that helps students find art&Sports academies nearby based on their location.
+            <a href="https://academyfindernp.vercel.app//" 
+              className="project-link"
+              onClick={e => { e.preventDefault(); openPopup('https://academyfindernp.vercel.app/'); }}
+              style={{ color: '#ffe082', textDecoration: 'underline', marginLeft: 8 }}
+            >Visit Site</a>
+          </li>
+          <li>
             <strong>NP Solution</strong> – A service provider website for electrical, plumbing, and CCTV solutions. 
             <a 
               href="https://n-p-solution-uto3.vercel.app/" 
@@ -26,12 +34,14 @@ function Projects() {
             >Visit Site</a>
           </li>
           <li>
-            <strong>Musicweb</strong> 
+            <strong>Musicweb</strong>
+             <a 
+              href="https://hosturl.link/2aeSQk" 
+              className="project-link"
+              onClick={e => { e.preventDefault(); openPopup('https://hosturl.link/2aeSQk'); }}
+              style={{ color: '#ffe082', textDecoration: 'underline', marginLeft: 8 }}
+            >Visit Site</a> 
           </li>
-          <li>
-            <strong>Indian Frames</strong> – this app helpfull for the travelers .
-          </li>
-          
         </ul>
       )}
     </section>

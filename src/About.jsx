@@ -11,9 +11,18 @@ function About() {
         href={resume}
         download
         className="contact-btn"
-        style={{display:'inline-block',marginTop:'1.5em'}}
+        style={{display:'inline-block',marginTop:'1.5em',marginRight:'1em'}}
       >
         Download Resume
+      </a>
+      <a
+        href={resume}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="contact-btn"
+        style={{display:'inline-block',marginTop:'1.5em'}}
+      >
+        View Resume
       </a>
     </section>
   );
